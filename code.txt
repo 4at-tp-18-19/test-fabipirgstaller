@@ -1,0 +1,4 @@
+git config --global user.name "Fabian Pirgstaller"
+git config --global user.email "fabian.pirgstaller@gmail.com"
+cd Desktop/
+git init Test
