@@ -7,3 +7,8 @@ git add code.txt
 git commit -m "Erster Commit"
 git remote add origin https://github.com/4at-tp-18-19/test-fabipirgstaller.git
 git push -u origin master
+git add code.txt
+git commit -m "Zweiter Commit"
+git push -u origin master
+git add code.txt
+git commit -m "Dritter Commit"
