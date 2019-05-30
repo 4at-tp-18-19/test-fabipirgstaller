@@ -22,3 +22,14 @@ git checkout -b iss53
 git add iss53.txt
 git commit -m "Fünfter Commit"
 git push -u origin iss53
+git merge hotfix master
+git merge iss53 master
+git checkout master
+git add code.txt
+git commit -m "Sechster Commit"
+git push -u origin master
+git push origin --delete hotfix
+git push origin --delete iss53
+git add code.txt
+git commit -m "Siebter Commit"
+git push -u origin master
