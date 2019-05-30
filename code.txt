@@ -1,4 +1,9 @@
 git config --global user.name "Fabian Pirgstaller"
 git config --global user.email "fabian.pirgstaller@gmail.com"
-cd Desktop/
+cd Desktop
 git init Test
+cd Test
+git add code.txt
+git commit -m "Erster Commit"
+git remote add origin https://github.com/4at-tp-18-19/test-fabipirgstaller.git
+git push -u origin master
